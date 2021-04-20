@@ -1,6 +1,6 @@
 ﻿window.onsubmit = function()
 			{
-			var password = 2020;
+			var password = 2021;
 			var input1 = document.getElementById("password1");
 				if(input1.value == password)
 				{
