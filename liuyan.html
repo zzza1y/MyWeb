@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Test</title>
+        <link rel="stylesheet" href="liuyancss.css">
+		<style type="text/css">
+        </style>
+        <script src="jquery-3.6.0.min.js">
+		</script>
+        <script type="text/javascript" src="houtaijs.js">
+		</script>
+	</head>
+	<body>
+		<div class="container">
+        	<div id="top">
+                <!--<p><img id="img1" src="1570148550010.jpeg" </p>-->
+            	<nav class="nav">
+        			<input type="radio" name="nav-item-opt" id="nav-item-opt-1" onClick="shouye()" >
+        			<label class="nav-item" for="nav-item-opt-1">首页</label>
+
+        			<input type="radio" name="nav-item-opt" id="nav-item-opt-2" onClick="jianjie()" >
+        			<label class="nav-item" for="nav-item-opt-2">简介</label>
+
+                    <input type="radio" name="nav-item-opt" id="nav-item-opt-3" onClick="img()">
+                    <label class="nav-item" for="nav-item-opt-3">图片</label>
+                    
+                    <input type="radio" name="nav-item-opt" id="nav-item-opt-4"  onClick="liuyan()" checked>
+                    <label class="nav-item" for="nav-item-opt-4">留言</label>
+                    
+                    <input type="radio" name="nav-item-opt" id="nav-item-opt-5">
+                    <label class="nav-item" for="nav-item-opt-5">测试</label>
+                    
+                    <input type="radio" name="nav-item-opt" id="nav-item-opt-6">
+                    <label class="nav-item" for="nav-item-opt-6">测试</label>
+                    <div class="tracker"></div>
+                </nav>
+            </div>
+            <div id="mid">
+            	<h1>留言板</h1>
+                <div id="ly">
+                	<h2>Zzza1yu
+                    <a href="javascript:;" title="关闭">&nbsp;╳&nbsp;</a>
+                    <a href="javascript:;" title="全屏">&nbsp;▢ </a>
+                    <a href="javascript:;" title="最小化">&nbsp;-</a> 
+                    <a href="javascript:;" title="设置">⚙</a></h2>
+                	<div class="right" id="right_1">
+                    	<img src="1570148550010.jpeg">
+                        <span><p>这是一个留言板，但没有服务器，所以这个并不能实现保存，但是你仍可以留言。</p></span>
+                    </div>
+                    <div class="left" id="left_1">
+                    	<img src="touxiang1.jpg">
+                        <span><p id="wb1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p></span>
+                    </div>
+                    <div id="lybottom">
+                    	<form action="" onSubmit="return updatewb()">
+                        <input type="text" id="wb" value="" />
+                  		<input type="submit" id="fs" value="发送"/> 	
+                        </form>
+                    </div>
+                </div>
+            </div>
+		</div>
+	</body>
+</html>
