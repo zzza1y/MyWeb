@@ -1,0 +1,89 @@
+body {
+		margin: 0;
+		padding: 0;
+		font-family: sans-serif;
+		background: url(houyaiimg.jpg);
+		background-size: cover;
+	}
+	.login-box {
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%,-50%);
+		width: 400px;
+		height:380px;
+		padding: 40px;
+		background: rgba(0,0,0,.8);
+		box-sizing: border-box;
+		box-shadow: 0 15px 25px rgba(0,0,0,.5);
+		border-radius: 10px;
+	}
+	div img
+	{
+		width: 30%;
+		position:relative;
+		left:35%;
+		border-radius:50%;
+		overflow:hidden;
+	}
+	
+	.login-box .login-field {
+		position: relative;
+		
+	}
+	
+	.login-box .login-field input {
+		width: 100%;
+		padding: 10px 0;
+		font-size: 16px;
+		color: #fff;
+		margin-bottom: 30px;
+		border: none;
+		border-bottom: 1px solid #fff;
+		outline: none;
+		background: transparent;
+	}
+	
+	.login-box .login-field label {
+		position: absolute;
+		top: 0;
+		left: 0;
+		letter-spacing: 1px;
+		padding: 10px 0;
+		font-size: 16px;
+		color: #fff;
+		pointer-events: none;
+		transition: .5s;		
+	}
+	
+	.login-box .login-field input:focus ~ label,
+	.login-box .login-field input:valid ~ label {
+		top: -23px;
+		left: 0;
+		color: aqua;
+		font-size: 12px;
+	}
+	
+	.login-box input  {
+		background: transparent;
+		border: none;
+		outline: none;
+		color: #fff;
+		background: #03a9f4;
+		padding: 10px 20px;
+		cursor: pointer;
+		border-radius: 5px;
+	}
+	#reg
+	{
+		width:100px;
+		height:50px;
+	}
+	#apDiv1 {
+	position: absolute;
+	left: 665px;
+	top: 729px;
+	width: 230px;
+	height: 25px;
+	z-index: 1;
+	}
