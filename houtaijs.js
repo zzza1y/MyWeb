@@ -19,7 +19,7 @@ function login()
     var password0=document.getElementById("password");
 	var username0=document.getElementById("username");
 	var pas=localStorage.getItem(username0.value);
-    if (pas.value!=null)
+    if (pas!=null)
 	{
 		if(pas==password0.value)
 		{
